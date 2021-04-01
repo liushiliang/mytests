@@ -1,0 +1,77 @@
+.jobBoxPage {
+  left: 0;
+  top: 0;
+  z-index: 101;
+  width: 750rpx;
+  height: 100%;
+  position: fixed;
+}
+.white-wrapper {
+  background-color: rgba(255, 255, 255, 0.97);
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 102;
+  opacity: 0;
+  width: 750rpx;
+  height: 100%;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+}
+.white-wrapper-show {
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
+}
+.job-block {
+  z-index: 103;
+  bottom: -500rpx;
+  width: 600rpx;
+  position: absolute;
+  left: 75rpx;
+  -webkit-transition: all 230ms ease-out;
+  transition: all 230ms ease-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+.job-block .jb-item {
+  width: 270rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.job-block .jb-item .round {
+  width: 112rpx;
+  height: 112rpx;
+  background-color: #84bbf7;
+  border-radius: 56rpx;
+}
+.job-block .jb-item .round-yellow {
+  background-color: #c9b079;
+}
+.job-block .jb-item .jb-h1 {
+  padding-top: 27rpx;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #3c3c3c;
+  padding-bottom: 23rpx;
+}
+.job-block .jb-item .jb-h2 {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color: #7e7d7d;
+}
+.job-block .cancel-wrapper {
+  padding-top: 169rpx;
+}
+.job-block .cancel-wrapper .jb_cancel_btn {
+  width: 29rpx;
+  height: 29rpx;
+  padding: 20rpx 30rpx;
+}
+.job-block-show {
+  bottom: 238rpx;
+}
+

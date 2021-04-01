@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "临泉网",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "job-box": "/components/jobBox/jobBox"
+  }
+}

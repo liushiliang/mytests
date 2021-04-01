@@ -1,0 +1,18 @@
+.pindao_bg {
+  width: 750rpx;
+  height: 400rpx;
+}
+.lists {
+  margin: 0 auto;
+  width: 627rpx;
+  padding-top: 45rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.lists .item {
+  width: 280rpx;
+  height: 239rpx;
+  display: block;
+  margin-bottom: 40rpx;
+}
+

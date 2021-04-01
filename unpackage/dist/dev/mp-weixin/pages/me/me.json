@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "return-btn": "/components/returnBtn/returnBtn",
+    "job-box": "/components/jobBox/jobBox"
+  }
+}

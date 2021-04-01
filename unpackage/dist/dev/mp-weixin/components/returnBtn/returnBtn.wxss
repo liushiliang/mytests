@@ -1,0 +1,46 @@
+.selfpage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding-bottom: 20rpx;
+  width: 750rpx;
+  z-index: 100;
+}
+.selfpageAni {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.block {
+  width: 100%;
+  font-size: 33rpx;
+  position: relative;
+}
+.block .return-img {
+  width: 20rpx;
+  vertical-align: middle;
+  height: 33rpx;
+  position: absolute;
+  z-index: 102;
+  padding: 0rpx 50rpx 0rpx 20rpx;
+  top: 0;
+  left: 0;
+}
+.block .block-txt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750rpx;
+  margin-left: 61rpx;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  z-index: 101;
+}
+.block .block-txt-center {
+  text-align: center;
+  margin-left: 0;
+}
+.blackTxt {
+  color: #333333;
+}
+

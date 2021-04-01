@@ -1,0 +1,141 @@
+._self_page {
+  width: 750rpx;
+  height: 100%;
+  overflow-x: hidden;
+}
+@-webkit-keyframes redbox {
+0% {
+    background-color: #fff;
+}
+25% {
+    background-color: rgba(255, 39, 39, 0.2);
+}
+50% {
+    background-color: #fff;
+}
+75% {
+    background-color: rgba(255, 39, 39, 0.2);
+}
+100% {
+    background-color: #fff;
+}
+}
+@keyframes redbox {
+0% {
+    background-color: #fff;
+}
+25% {
+    background-color: rgba(255, 39, 39, 0.2);
+}
+50% {
+    background-color: #fff;
+}
+75% {
+    background-color: rgba(255, 39, 39, 0.2);
+}
+100% {
+    background-color: #fff;
+}
+}
+.errbox-ani {
+  -webkit-animation: redbox 500ms ease-out;
+          animation: redbox 500ms ease-out;
+}
+.lists {
+  font-size: 30rpx;
+  box-shadow: 0px 0px 20rpx #e2e2e2;
+  margin-bottom: 14rpx;
+}
+.lists .fj-item-wrapper {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.lists .fj-item {
+  height: 110rpx;
+  padding: 0rpx 34rpx;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+.lists .fj-item .fj-h1 {
+  color: #7e7d7d;
+}
+.lists .fj-item .fj-h2 {
+  margin-left: 28rpx;
+  color: #333232;
+  max-width: 500rpx;
+}
+.lists .right-arrow-gray {
+  width: 12rpx;
+  height: 21rpx;
+}
+.btn-wrapper {
+  width: 750rpx;
+  height: 170rpx;
+}
+.btn-wrapper .submit-btn {
+  color: #fff;
+  border-radius: 43.5rpx;
+  width: 692rpx;
+  height: 87rpx;
+  line-height: 87rpx;
+  background-color: #1e95ee;
+  font-size: 30rpx;
+  text-align: center;
+  letter-spacing: 6rpx;
+}
+.picker-wrapper {
+  position: fixed;
+  bottom: -692rpx;
+  left: 0;
+  width: 750rpx;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  background-color: #fff;
+  z-index: 301;
+}
+.picker-wrapper .pv-h {
+  height: 90rpx;
+  border-bottom: 2rpx solid #ececec;
+  width: 684rpx;
+  padding: 0rpx 33rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #7e7d7d;
+  font-size: 31rpx;
+  background-color: #fff;
+}
+.picker-wrapper .pv {
+  width: 750rpx;
+  height: 500rpx;
+}
+.picker-wrapper .pv .pick-item {
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.picker-wrapper-show {
+  bottom: 0;
+}
+.black-wrapper {
+  display: none;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  opacity: 0;
+  position: fixed;
+  width: 750rpx;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 79;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.show-wrapper {
+  display: block;
+}
+

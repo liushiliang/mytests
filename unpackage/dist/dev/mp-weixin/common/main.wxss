@@ -1,0 +1,212 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	/*每个页面公共css */
+.page{
+		width: 100%;
+		position: absolute;
+		background-color: #fff;
+}
+/*每个页面公共css */
+/* T弹性布局 */
+.flex-wr{
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.flex-allcenter{/*全居中*/
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-align-content: center;
+		        align-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.fr-wrap { /*换行flex-row*/
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+}
+.fc-wrap{
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+}
+.fr-start {
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-justify-content: flex-start;
+		-webkit-box-pack: start;
+		        justify-content: flex-start;
+}
+.fr-center{
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-justify-content: center;
+		-webkit-box-pack: center;
+		        justify-content: center;
+}
+.fc-start{
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-justify-content: flex-start;
+		-webkit-box-pack: start;
+		        justify-content: flex-start;
+}
+.fr-end{
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-justify-content: flex-end;
+		-webkit-box-pack: end;
+		        justify-content: flex-end;
+}
+.fr-space-between {
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-justify-content: space-between;
+		-webkit-box-pack: justify;
+		        justify-content: space-between;
+}
+.fc-space-between{
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-justify-content: space-between;
+		-webkit-box-pack: justify;
+		        justify-content: space-between;
+}
+.fr-space-around {
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-justify-content: space-around;
+		justify-content: space-around;
+}
+/*不换行省略*/
+.textHidden {
+	    -ms-text-overflow: ellipsis;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+}
+.th200{
+		-ms-text-overflow: ellipsis;
+		    text-overflow: ellipsis;
+		    overflow: hidden;
+		    white-space: nowrap;
+			max-width: 200rpx;
+}
+/*500rpx不换行 且省略*/
+.th500{
+		-ms-text-overflow: ellipsis;
+		    text-overflow: ellipsis;
+		    overflow: hidden;
+		    white-space: nowrap;
+			max-width: 500rpx;
+}
+.show_two {
+	    overflow: hidden;
+	    -ms-text-overflow: ellipsis;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+}
+.show_three{
+		overflow: hidden;
+		-ms-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+}
+.ta{
+		text-align: center;
+}
+/*公共icon */
+.eye{
+		width: 27rpx;
+		height: 17rpx;
+		vertical-align: bottom;
+		padding-bottom: 2rpx;
+}
+

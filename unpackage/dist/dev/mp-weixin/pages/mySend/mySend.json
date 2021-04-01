@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "slip-btn": "/components/slipBtn/slipBtn",
+    "return-btn": "/components/returnBtn/returnBtn"
+  }
+}

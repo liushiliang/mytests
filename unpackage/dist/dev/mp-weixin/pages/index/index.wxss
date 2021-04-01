@@ -1,0 +1,172 @@
+.isNoMore {
+  font-size: 20rpx;
+  line-height: 40rpx;
+  text-align: center;
+  width: 100%;
+  color: #999;
+}
+.container {
+  width: 712rpx;
+  margin: 0 auto;
+}
+.fixed-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: #1e95ee;
+  width: 750rpx;
+  color: #fff;
+}
+.fixed-header .h1 {
+  font-size: 30rpx;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 40rpx;
+}
+.fixed-header .h2-wrapper {
+  width: 695rpx;
+  margin: 0 auto;
+  padding-top: 20rpx;
+}
+.fixed-header .h2-wrapper .logo {
+  width: 185rpx;
+  height: 48rpx;
+  margin-top: -4rpx;
+}
+.fixed-header .h2-wrapper .h2 {
+  width: 357rpx;
+  padding-left: 50rpx;
+}
+.fixed-header .h2-wrapper .h2 .h2-ttl {
+  height: 46rpx;
+}
+.fixed-header .h2-wrapper .h2 .h2-ttl .h2-ttl-item {
+  width: 83rpx;
+  text-align: center;
+  margin-right: 36rpx;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+.fixed-header .h2-wrapper .h2 .h3-ttl .h3-ttl-item {
+  height: 4rpx;
+  width: 83rpx;
+  background-color: #fff;
+  border-radius: 1rpx;
+  margin-right: 36rpx;
+}
+.fixed-header .h2-wrapper .search {
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 36rpx;
+  color: #fff;
+}
+.header {
+  position: relative;
+  color: #fff;
+  background-color: #1e95ee;
+  height: 269rpx;
+  /*269为下半弧度部分 上半部分需要通过api获取然后更改*/
+  border-bottom-left-radius: 200rpx;
+  border-bottom-right-radius: 200rpx;
+}
+.header .sw {
+  margin: 0rpx auto;
+  width: 695rpx;
+  height: 314rpx;
+}
+.header .sw .sw-item {
+  width: 695rpx;
+  height: 314rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+.header .sw .sw-item .gradient {
+  width: 695rpx;
+  height: 314rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header .sw .sw-item .sw-img {
+  width: 695rpx;
+  height: 314rpx;
+}
+.header .sw .sw-item .sw-label {
+  bottom: 18rpx;
+  font-size: 32rpx;
+  padding-left: 20rpx;
+  line-height: 32rpx;
+  position: absolute;
+  left: 0;
+  width: 670rpx;
+}
+.hot-search {
+  padding-top: 72rpx;
+  height: 40rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 22rpx;
+}
+.hot-search .left-label {
+  margin-left: 9rpx;
+  font-size: 32rpx;
+  line-height: 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.hot-search .left-label .hot-icon {
+  width: 38rpx;
+  height: 38rpx;
+}
+.hot-search .left-label .hot-txt {
+  margin-left: 10rpx;
+  margin-right: 26rpx;
+  color: #da5b70;
+}
+.hot-search .left-label .hot-sw {
+  width: 510rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #474747;
+}
+.hot-search .right-arrow {
+  font-size: 20rpx;
+  width: 12rpx;
+  height: 22.8rpx;
+  padding-right: 11rpx;
+}
+.lists .tui-item {
+  box-shadow: 0px 0px 20rpx 6rpx #eee;
+  height: 170rpx;
+  padding: 20rpx;
+  width: 672rpx;
+  margin-bottom: 26rpx;
+  border-radius: 8rpx;
+}
+.lists .tui-item .tui-item-img {
+  width: 209rpx;
+  height: 167rpx;
+  border-radius: 8rpx;
+}
+.lists .tui-item .tui-txt {
+  width: 447rpx;
+}
+.lists .tui-item .tui-txt .tui-h1 {
+  font-size: 32rpx;
+  color: #3c3c3c;
+  line-height: 46rpx;
+  margin-top: -9rpx;
+}
+.lists .tui-item .tui-txt .tui-h2 {
+  font-size: 24rpx;
+  color: #7e7d7d;
+}
+.disablePageScroll {
+  overflow: hidden;
+}
+

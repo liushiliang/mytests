@@ -1,0 +1,79 @@
+.isNoMore {
+  padding-top: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 22rpx;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
+.header {
+  margin-top: 149rpx;
+  height: 230rpx;
+  background-color: #1e95ee;
+}
+.header .h-img {
+  width: 716rpx;
+  height: 208rpx;
+  border-radius: 25rpx;
+  margin-left: 17rpx;
+}
+.tab-list {
+  padding-top: 25rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+  padding-left: 48rpx;
+}
+.tab-list .tab-item {
+  margin-right: 56rpx;
+  display: inline-block;
+}
+.tab-list .tab-item .ti-h1 {
+  line-height: 34rpx;
+  height: 34rpx;
+  padding-bottom: 25rpx;
+  font-size: 28rpx;
+  color: #ababab;
+}
+.tab-list .tab-item .ti-h2 {
+  height: 6rpx;
+  width: 38rpx;
+  background-color: transparent;
+  border-radius: 6rpx;
+}
+.tab-list .tab-item-selected .ti-h1 {
+  font-size: 34rpx;
+  color: #1d92e9;
+}
+.tab-list .tab-item-selected .ti-h2 {
+  background-color: #1d92e9;
+}
+/* 职位列表 */
+.job-list .job-item {
+  padding: 27rpx 33rpx 41rpx 33rpx;
+  box-shadow: 0rpx 0rpx 10rpx #e6e6e6;
+  margin-bottom: 30rpx;
+}
+.job-list .job-item .ji-h {
+  color: #333;
+  font-size: 30rpx;
+  padding-bottom: 35rpx;
+}
+.job-list .job-item .ji-h2,
+.job-list .job-item .ji-h3 {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  color: #ababab;
+}
+.job-list .job-item .split-line {
+  margin: 0rpx 14rpx;
+}
+.job-list .job-item .ji-h3 {
+  padding-top: 34rpx;
+}
+.job-list .job-item .ji-h3 .si-h31 {
+  max-width: 600rpx;
+}
+.job-list .job-item:first-child {
+  box-shadow: 0rpx 5rpx 5rpx #eee;
+}
+

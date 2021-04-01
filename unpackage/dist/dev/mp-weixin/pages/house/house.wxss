@@ -1,0 +1,129 @@
+.nav-wrapper {
+  top: 149rpx;
+  position: fixed;
+  z-index: 50;
+  width: 750rpx;
+}
+.nav-btn {
+  position: fixed;
+  height: 84rpx;
+  width: 92rpx;
+  background-color: #fff;
+  top: 149rpx;
+  right: 0;
+  box-shadow: -10rpx 0rpx 10rpx #fff;
+  z-index: 51;
+}
+.nav-btn .threeline {
+  width: 33rpx;
+  height: 27rpx;
+}
+.black-wrapper {
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  z-index: 80;
+  position: fixed;
+  left: 0;
+  top: 0;
+  -webkit-transition: background 300ms ease-out;
+  transition: background 300ms ease-out;
+  -webkit-transition-delay: 1ms;
+          transition-delay: 1ms;
+}
+.black-wrapper-show {
+  background: rgba(0, 0, 0, 0.7);
+}
+.super-nav-block {
+  background-color: #fff;
+  position: fixed;
+  z-index: 81;
+  left: 0;
+  top: -255rpx;
+  width: 750rpx;
+  padding-top: 42rpx;
+  border-radius: 25rpx;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  -webkit-transition-delay: 50ms;
+          transition-delay: 50ms;
+}
+.super-nav-block .sn-h {
+  top: 149rpx;
+  line-height: 29rpx;
+  font-size: 34rpx;
+  color: #333;
+  margin: 0 auto;
+  width: 684rpx;
+}
+.super-nav-block .sn-btns {
+  margin: 0 auto;
+  margin-top: 42rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 684rpx;
+  padding-bottom: 66rpx;
+}
+.super-nav-block .sn-btns .sn-item {
+  margin-bottom: 28rpx;
+  margin-right: 13.5rpx;
+  width: 219rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  text-align: center;
+  font-size: 32rpx;
+  letter-spacing: 4rpx;
+  background-color: #f2f2f2;
+  border-radius: 6rpx;
+}
+.super-nav-block .sn-btns .sn-item-selected {
+  background-color: #1e95ee;
+  color: #fff;
+}
+.super-nav-block .sn-btns .sn-item:nth-child(3n) {
+  margin-right: 0;
+}
+.super-nav-block-show {
+  top: 149rpx;
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
+}
+.cancel_btn {
+  width: 29rpx;
+  height: 29rpx;
+  position: absolute;
+  right: 33rpx;
+  top: 42rpx;
+}
+.lists {
+  padding-top: 40rpx;
+}
+.house-item {
+  width: 712rpx;
+  margin: 0 auto;
+  box-shadow: 0px 0px 40rpx #ddd;
+  border-top-left-radius: 22rpx;
+  border-top-right-radius: 22rpx;
+  margin-bottom: 27rpx;
+}
+.house-item .house-img {
+  width: 712rpx;
+  height: 294rpx;
+  border-radius: 22rpx;
+}
+.house-item .hi-h {
+  padding-top: 40rpx;
+  padding-bottom: 14rpx;
+  line-height: 32rpx;
+  font-size: 32rpx;
+  color: #474747;
+  padding-left: 16rpx;
+}
+.house-item .hi-h2 {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  padding-bottom: 56rpx;
+  color: #989898;
+  padding-left: 16rpx;
+}
+

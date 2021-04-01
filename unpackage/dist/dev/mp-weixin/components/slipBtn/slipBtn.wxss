@@ -1,0 +1,22 @@
+.send-item-wrapper {
+  width: 923rpx;
+  position: relative;
+}
+.send-item-wrapper-ani {
+  -webkit-transition: all 100ms ease-out;
+  transition: all 100ms ease-out;
+}
+.the-content {
+  width: 750rpx;
+}
+.delete-btn {
+  background-color: #f95151;
+  width: 173rpx;
+  height: 221rpx;
+  line-height: 221rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+}
+

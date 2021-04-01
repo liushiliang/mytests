@@ -1,0 +1,48 @@
+
+.under-line.data-v-20d536c6 {
+	background-color: #007AFF;
+	align: center;
+	opacity: 0;
+}
+.under-line.active.data-v-20d536c6 {
+	opacity: 1;
+}
+.scroll-view-container.data-v-20d536c6 {
+	overflow: hidden; /* 这个设置了就能截掉滚动条啦 */
+}
+scroll-view.data-v-20d536c6 {
+	height: 100vh;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	white-space: nowrap;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+}
+.tab-container.data-v-20d536c6 {
+	display: inline-block;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding-left: 34rpx;
+	padding-right: 34rpx;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.tab-container-title.data-v-20d536c6 {
+	color: #555;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	white-space: nowrap;
+}
+.tab-container-title-active.data-v-20d536c6 {
+	/*	color: #007AFF; */
+}
+.line-h.data-v-20d536c6 {
+	height: 1px;
+	background-color: #cccccc;
+}
+

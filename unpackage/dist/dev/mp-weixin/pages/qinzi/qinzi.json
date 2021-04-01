@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "return-btn": "/components/returnBtn/returnBtn",
+    "tbs-scroll-tab": "/components/tbs-scrollTab/tbs-scrollTab"
+  }
+}

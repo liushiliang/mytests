@@ -1,0 +1,265 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "临泉网",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false,
+					"animationType":"fade-in",
+					"animationDuration":"300ms",
+					 "softinputMode": "adjustResize"
+				}
+			}
+		}
+	   
+        ,{
+            "path" : "pages/pindao/pindao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/house/house",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/wedding/wedding",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/qinzi/qinzi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/edu/edu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/food/food",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity_detail/activity_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/welfare/welfare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"animationType":"zoom-fade-out",
+					"animationDuration":"300ms",
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/comm_detail/comm_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/findjob/findjob",
+            "style" : {"app-plus":{
+					"softinputMode": "adjustPan"
+				}}
+        }
+        ,{
+            "path" : "pages/findjob_form/findjob_form",
+            "style" : {"app-plus":{
+					"softinputMode": "adjustResize"
+				}}
+        }
+        ,{
+            "path" : "pages/findjob_form2/findjob_form2",
+            "style" : {"app-plus":{
+					"softinputMode": "adjustResize"
+				}}
+        }
+        ,{
+            "path" : "pages/report/report",
+            "style" : {"app-plus":{
+					"softinputMode": "adjustResize"
+				}}
+        }
+        ,{
+            "path" : "pages/submit_success/submit_success",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"app-plus":{
+					"animationType":"fade-in"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/myfav/myfav",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mySend/mySend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/givejob/givejob",
+            "style" : {
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/givejob_detail/givejob_detail",
+            "style" : {
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"softinputMode": "adjustResize"
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "临泉网",
+		"navigationStyle":"custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

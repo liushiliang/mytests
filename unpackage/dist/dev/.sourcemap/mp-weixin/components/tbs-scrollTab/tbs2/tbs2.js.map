@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,2G;AACAA,UAAU,CAACC,YAAD,CAAV,C","file":"components/tbs-scrollTab/tbs2/tbs2.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './components/tbs-scrollTab/tbs2/tbs2.vue'\ncreatePage(Page)"],"sourceRoot":""}

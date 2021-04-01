@@ -1,0 +1,70 @@
+.isNoMore {
+  padding-top: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 22rpx;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
+.lists {
+  margin-top: 149rpx;
+}
+.fav-item {
+  padding: 30rpx 60rpx 29rpx 34rpx;
+}
+.fav-item .fi-img {
+  width: 55rpx;
+  height: 55rpx;
+  margin-right: 28rpx;
+  border-radius: 10rpx;
+}
+.fav-item .fi-img image {
+  width: 31rpx;
+}
+.fav-item .fi-img-news {
+  background-color: #4BA2FC;
+}
+.fav-item .fi-img-house {
+  background-color: #8895fb;
+}
+.fav-item .fi-img-wedding {
+  background-color: #FF6B72;
+}
+.fav-item .fi-img-qinzi {
+  background-color: #28D7A9;
+}
+.fav-item .fi-img-edu {
+  background-color: #D887DD;
+}
+.fav-item .fi-img-food {
+  background-color: #F37B1D;
+}
+.fav-item .fi-img-activity {
+  background-color: #A5673F;
+}
+.fav-item .fi-img-welfare {
+  background-color: #8DC53F;
+}
+.fav-item .fi-h {
+  width: 575rpx;
+  height: 108rpx;
+}
+.fav-item .fi-h1 {
+  font-size: 30rpx;
+  line-height: 40rpx;
+  margin-top: -6rpx;
+  color: #474747;
+}
+.fav-item .fi-h2 {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #ababab;
+}
+.center-line {
+  height: 1rpx;
+  width: 750rpx;
+  background-color: #dcdcdc;
+  margin-left: 107rpx;
+}
+

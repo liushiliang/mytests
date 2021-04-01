@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "return-btn": "/components/returnBtn/returnBtn",
+    "tbs-scroll-tab": "/components/tbs-scrollTab/tbs-scrollTab",
+    "job-box": "/components/jobBox/jobBox"
+  }
+}

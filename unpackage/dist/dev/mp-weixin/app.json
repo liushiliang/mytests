@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pindao/pindao",
+    "pages/news/news",
+    "pages/house/house",
+    "pages/wedding/wedding",
+    "pages/qinzi/qinzi",
+    "pages/edu/edu",
+    "pages/food/food",
+    "pages/activity/activity",
+    "pages/activity_detail/activity_detail",
+    "pages/welfare/welfare",
+    "pages/community/community",
+    "pages/comm_detail/comm_detail",
+    "pages/findjob/findjob",
+    "pages/findjob_form/findjob_form",
+    "pages/findjob_form2/findjob_form2",
+    "pages/report/report",
+    "pages/submit_success/submit_success",
+    "pages/me/me",
+    "pages/myfav/myfav",
+    "pages/mySend/mySend",
+    "pages/search/search",
+    "pages/givejob/givejob",
+    "pages/givejob_detail/givejob_detail",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "临泉网",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap59.json"
+}
